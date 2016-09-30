@@ -19,5 +19,11 @@ namespace Github_React_DOCs.Controllers
         {
             return View();
         }
+
+
+        public ActionResult Tutorial()
+        {
+            return View();
+        }
     }
 }
