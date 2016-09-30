@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "devDependencies": {
     "init": "^0.1.2",
+    "link": "^0.1.5",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2"
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3"
   }
 }
