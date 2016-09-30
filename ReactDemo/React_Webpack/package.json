@@ -2,6 +2,8 @@
   "name": "myproject",
   "version": "1.0.0",
   "devDependencies": {
-    "init": "^0.1.2"
+    "init": "^0.1.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   }
 }
