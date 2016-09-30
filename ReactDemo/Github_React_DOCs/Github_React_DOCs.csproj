@@ -89,11 +89,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="react-15.3.2\build\browser.min.js" />
+    <Content Include="react-15.3.2\build\react-dom-server.js" />
+    <Content Include="react-15.3.2\build\react-dom-server.min.js" />
+    <Content Include="react-15.3.2\build\react-dom.js" />
+    <Content Include="react-15.3.2\build\react-dom.min.js" />
+    <Content Include="react-15.3.2\build\react-with-addons.js" />
+    <Content Include="react-15.3.2\build\react-with-addons.min.js" />
+    <Content Include="react-15.3.2\build\react.js" />
+    <Content Include="react-15.3.2\build\react.min.js" />
+    <Content Include="react-15.3.2\examples\basic-click-counter\index.html" />
+    <Content Include="react-15.3.2\examples\basic-commonjs\index.html" />
+    <Content Include="react-15.3.2\examples\basic-commonjs\index.js" />
+    <Content Include="react-15.3.2\examples\basic-jsx-external\example.js" />
+    <Content Include="react-15.3.2\examples\basic-jsx-external\index.html" />
+    <Content Include="react-15.3.2\examples\basic-jsx-harmony\index.html" />
+    <Content Include="react-15.3.2\examples\basic-jsx-precompile\example.js" />
+    <Content Include="react-15.3.2\examples\basic-jsx-precompile\index.html" />
+    <Content Include="react-15.3.2\examples\basic-jsx\index.html" />
+    <Content Include="react-15.3.2\examples\basic\index.html" />
+    <Content Include="react-15.3.2\examples\fiber\index.html" />
+    <Content Include="react-15.3.2\examples\jquery-bootstrap\css\example.css" />
+    <Content Include="react-15.3.2\examples\jquery-bootstrap\index.html" />
+    <Content Include="react-15.3.2\examples\jquery-bootstrap\js\app.js" />
+    <Content Include="react-15.3.2\examples\jquery-mobile\index.html" />
+    <Content Include="react-15.3.2\examples\jquery-mobile\js\app.js" />
+    <Content Include="react-15.3.2\examples\quadratic\example.js" />
+    <Content Include="react-15.3.2\examples\quadratic\index.html" />
+    <Content Include="react-15.3.2\examples\shared\css\base.css" />
+    <Content Include="react-15.3.2\examples\transitions\index.html" />
+    <Content Include="react-15.3.2\examples\transitions\transition.css" />
+    <Content Include="react-15.3.2\examples\webcomponents\index.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -102,6 +144,19 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="react-15.3.2\examples\basic-commonjs\.babelrc" />
+    <Content Include="react-15.3.2\examples\basic-commonjs\package.json" />
+    <Content Include="react-15.3.2\examples\basic-commonjs\README.md" />
+    <Content Include="react-15.3.2\examples\jquery-mobile\README.md" />
+    <Content Include="react-15.3.2\examples\README.md" />
+    <Content Include="react-15.3.2\README.md" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,9 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="react-15.3.2\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
