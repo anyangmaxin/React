@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactDemo", "ReactDemo\Reac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_Webpack", "React_Webpack\React_Webpack.csproj", "{D5A1A8CB-6F06-40B4-8234-E0594F3D845C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github_React_DOCs", "Github_React_DOCs\Github_React_DOCs.csproj", "{5742CE6C-D737-40B1-9B74-096DEE2CD0FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5A1A8CB-6F06-40B4-8234-E0594F3D845C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5A1A8CB-6F06-40B4-8234-E0594F3D845C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5A1A8CB-6F06-40B4-8234-E0594F3D845C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5742CE6C-D737-40B1-9B74-096DEE2CD0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5742CE6C-D737-40B1-9B74-096DEE2CD0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5742CE6C-D737-40B1-9B74-096DEE2CD0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5742CE6C-D737-40B1-9B74-096DEE2CD0FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
