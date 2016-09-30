@@ -4,6 +4,8 @@
   "devDependencies": {
     "init": "^0.1.2",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2"
   }
 }
